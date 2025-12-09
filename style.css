@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #dcdbdb;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+nav {
+    background: #134e7f;
+    color: #fff;
+    padding: 15px 0;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    float: left;
+    margin-left: 30px;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin-right: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+nav ul li a:hover {
+    color: #00d9ff;       
+    padding-bottom: 6px;  
+    border-bottom: 2px solid #000000; 
+}
+nav::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.hero {
+    text-align: center;
+    padding: 120px 0;
+    background: #ddd;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+.about-section {
+    padding: 40px;
+    text-align: center;
+}
+
+.about-section img {
+    width: 200px;
+    border-radius: 50%;
+}
+.skills-container {
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+}
+
+.skill-card {
+    background: white;
+    padding: 20px;
+    border: 2px solid #222;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+.skill-card:hover {
+    transform: scale(1.05);
+    background: #e5f8ff;
+}
+.contact-form {
+    width: 50%;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background: #222;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+.contact-form button:hover {
+    background: #000000;
+    color: black;
+}
